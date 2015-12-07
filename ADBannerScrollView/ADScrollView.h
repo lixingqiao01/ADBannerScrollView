@@ -7,6 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "UIImageView+WebCache.h"
+#define MAINSCREEN_BOUND [UIScreen mainScreen].bounds
 
 @protocol ADScrollViewDelegate <NSObject>
 /**
